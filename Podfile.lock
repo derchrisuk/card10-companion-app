@@ -1,0 +1,56 @@
+PODS:
+  - BitByteData (1.2.0)
+  - SWCompression (4.5.0):
+    - BitByteData (~> 1.2.0)
+    - SWCompression/BZip2 (= 4.5.0)
+    - SWCompression/Deflate (= 4.5.0)
+    - SWCompression/GZip (= 4.5.0)
+    - SWCompression/LZMA (= 4.5.0)
+    - SWCompression/LZMA2 (= 4.5.0)
+    - SWCompression/SevenZip (= 4.5.0)
+    - SWCompression/TAR (= 4.5.0)
+    - SWCompression/XZ (= 4.5.0)
+    - SWCompression/ZIP (= 4.5.0)
+    - SWCompression/Zlib (= 4.5.0)
+  - SWCompression/BZip2 (4.5.0):
+    - BitByteData (~> 1.2.0)
+  - SWCompression/Deflate (4.5.0):
+    - BitByteData (~> 1.2.0)
+  - SWCompression/GZip (4.5.0):
+    - BitByteData (~> 1.2.0)
+    - SWCompression/Deflate
+  - SWCompression/LZMA (4.5.0):
+    - BitByteData (~> 1.2.0)
+  - SWCompression/LZMA2 (4.5.0):
+    - BitByteData (~> 1.2.0)
+    - SWCompression/LZMA
+  - SWCompression/SevenZip (4.5.0):
+    - BitByteData (~> 1.2.0)
+    - SWCompression/LZMA2
+  - SWCompression/TAR (4.5.0):
+    - BitByteData (~> 1.2.0)
+  - SWCompression/XZ (4.5.0):
+    - BitByteData (~> 1.2.0)
+    - SWCompression/LZMA2
+  - SWCompression/ZIP (4.5.0):
+    - BitByteData (~> 1.2.0)
+    - SWCompression/Deflate
+  - SWCompression/Zlib (4.5.0):
+    - BitByteData (~> 1.2.0)
+    - SWCompression/Deflate
+
+DEPENDENCIES:
+  - SWCompression (~> 4.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BitByteData
+    - SWCompression
+
+SPEC CHECKSUMS:
+  BitByteData: dac49233436c0ad0714260af31080ac42c8cdf2e
+  SWCompression: 79459fca0d685be940214f1e87537ba972dcd3bb
+
+PODFILE CHECKSUM: 077e805b5b1ed363ea94dd5488aba3e01f60fd7c
+
+COCOAPODS: 1.7.5

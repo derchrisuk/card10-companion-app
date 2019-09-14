@@ -1,0 +1,6 @@
+framework module Pods_card10badge {
+  umbrella header "Pods-card10badge-umbrella.h"
+
+  export *
+  module * { export * }
+}
